@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Csernatoni Patricia">
+  <meta name="keywords" content="bar,cocktails,bere,băuturi artizanale">
+  <meta name="description"
+    content="Mixology Matters este un bar inovator și sofisticat, dedicat pasionaților de cocktailuri și băuturi artizanale.">
+  <title>Mixology Matters</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    h1 {
+      font-family: "Playfair Display", serif;
+    }
+
+    h2 {
+      font-family: "Playfair Display", serif;
+    }
+
+    h3 {
+      font-family: "Playfair Display", serif;
+      font-size: 20px;
+    }
+
+    h4 {
+      font-size: 20px;
+      font-family: "Playfair Display", serif;
+    }
+
+    p {
+      font-family: "Playfair Display", serif;
+    }
+
+    .buton {
+      font-family: "Playfair Display", serif;
+    }
+
+    a {
+      font-family: "Playfair Display", serif;
+    }
+
+    body {
+      background-color: #d63384;
+    }
+    .text-footer{
+      font-family: "Playfair Display", serif;
+      font-size: 25px;
+    }
+    li{
+      font-family: "Playfair Display", serif;
+    }
+  </style>
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-md bg-light-subtle ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"> <img src="eye-lashes.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#servicii"> Servicii </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#meniu">Meniu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#galerie">Galerie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Carusel-->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="ratio ratio-21x9">
+          <img src="bere.jpg" class="d-block w-100" alt="un barman care toarnă o halbă de bere">
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="ratio ratio-21x9">
+          <img src="cocktail.jpg" class="d-block w-100" alt="un barman care face cocktailuri">
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="ratio ratio-21x9">
+          <img src="margarita.jpg" class="d-block w-100" alt="pahare de margarita pe masă">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="ratio ratio-21x9">
+          <img src="sampanie.jpg" class="d-block w-100" alt="pahare de șampanie pe o tavă rotundă">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="ratio ratio-21x9">
+          <img src="sticle.jpg" class="d-block w-100" alt="sticle de băuturi alcoolice">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--main content-->
+  <div class="container">
+    <!--rezervari-->
+    <h1 class="text-center p-5"><strong>Mixology Matters</strong></h1>
+    <hr>
+    <div class="w-100">
+      <p class="p-3 mb-2 ">Situat în inima orașului, barul nostru îți oferă o atmosferă vibrantă și relaxantă, perfectă
+        pentru o întâlnire cu prietenii sau o seară de neuitat alături de cei dragi. Te așteptăm cu o selecție variată
+        de băuturi, de la cocktailuri sofisticate, la bere rece și vinuri rafinate, toate pregătite cu pasiune de
+        barmanii noștri experimentați. Fie că îți dorești un moment de relaxare după o zi lungă sau vrei să te distrezi
+        până târziu, Mixology Matters este locul ideal pentru a te bucura de fiecare clipă!</p>
+      <div class="d-flex justify-content-center">
+        <button type="button" class="btn btn-dark btn-lg buton">Rezervă o masă</button>
+      </div>
+    </div>
+
+    <!--sectiune servicii -->
+    <h2 id="servicii" class=" fs-1 p-5 mt-5 mb-5 text-center"> Servicii</h2>
+    <div class="container">
+      <div class="row justify-content-center">
+        <!--card 1-->
+        <div class="col-12 col-md-12 col-lg-3">
+          <div class="card w-100 mb-3">
+            <img src="prieteni.jpg" class="card-img-top" alt="patru oameni care râd">
+            <div class="card-body">
+              <h3 class="text-center mb-2 ">Evenimente private</h3>
+              <p class="card-text"> Îți oferim posibilitatea de a organiza petreceri private, aniversări,
+                team-building-uri sau întâlniri de afaceri, într-un spațiu exclusivist. Ia legătura cu organizatorul
+                nostru pentru cea mai <em>fresh</em> petrecere! </p>
+            </div>
+          </div>
+        </div>
+        <!--card 2-->
+        <div class="col-12 col-md-12 col-lg-3">
+          <div class="card w-100 mb-3">
+            <img src="selfie.jpg" class="card-img-top" alt="trei oameni care își fac un selfie">
+            <div class="card-body">
+              <h3 class="mb-2 text-center">Happy Hour <span class="badge text-bg-secondary"> -10% OFF tot meniul</span>
+              </h3>
+              <p class="card-text">În cadrul programului nostru de Happy Hour, vei găsi reduceri semnificative la o
+                selecție de cocktailuri, beri și băuturi alcoolice. Zilnic de la la 17 la 19. </p>
+            </div>
+          </div>
+        </div>
+        <!--card 3-->
+        <div class="col-12 col-md-12 col-lg-3">
+          <div class="card w-100 mb-1">
+            <img src="shots.jpg" class="card-img-top" alt="oameni care ciocnesc shoturi">
+            <div class="card-body">
+              <h3 class=" mb-2 text-center">Cursuri de mixologie <span class="badge text-bg-secondary">-25% OFF</span>
+              </h3>
+              <p class="card-text">Fie că vrei să devii barman profesionist sau pur și simplu să îți impresionezi
+                prietenii, cursurile noastre sunt potrivite pentru orice pasionat de băuturi. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--sectiune meniu-->
+    <h2 id="meniu" class="fs-1 p-5 mt-5 mb-3 text-center">Meniu</h2>
+
+    <!--meniu acordeon-->
+    <div class="accordion mb-3" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Meniu bere artizanală
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p class="text-center"> La Mixology Matters ne mândrim cu selecția noastră de bere artizanală, oferind o
+              gamă diversă de arome și stiluri care reflectă pasiunea pentru calitate și tradiție. Fie că ești un
+              iubitor al berii clasice sau îți dorești să explorezi noi gusturi, vei găsi cu siguranță opțiuni care să
+              se potrivească preferințelor tale.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Meniu vinuri
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p class="text-center">La Mixology Matters oferim o selecție rafinată de vinuri, atent alese pentru a
+              satisface gusturile celor mai exigenți iubitori de vin. Fiecare sticlă din meniul nostru provine din
+              regiunile viticole celebre și include atât vinuri locale, cât și internaționale. Indiferent dacă preferi
+              un vin alb răcoritor, un roșu complex sau un vin spumant elegant, vei găsi opțiuni care se potrivesc
+              perfect cu atmosfera serii tale.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Meniu cocktailuri și shoturi
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p class="text-center">La Mixology Matters am creat un meniu de cocktailuri și shoturi care îți va stimula
+              simțurile și va adăuga o notă de rafinament serii tale. Fiecare băutură este realizată cu ingrediente de
+              calitate, preparate cu grijă de barmanii noștri talentați. De la cocktailuri clasice și inovative, la
+              shoturi pline de energie și gust, vei găsi opțiuni care se potrivesc oricărei ocazii și dispoziții.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--galerie-->
+    <h2 id="galerie" class="fs-1 p-5 mt-5 mb-3 text-center">Galerie</h2>
+    <p class="text-center"> Aici vei găsi imagini care surprind momente de neuitat, de la cocktailuri colorate și preparate delicioase, până la evenimente speciale și colțuri de decor ce definesc stilul locului nostru. Explorează galeria și lasă-te inspirat de ambientul nostru vibrant, ideal pentru o seară relaxantă sau o întâlnire cu prietenii. Fiecare imagine reflectă pasiunea și atenția noastră pentru detalii, invitându-te să trăiești o experiență autentică, chiar și din fața ecranului.</p>
+    <div class="container mb-5"> 
+    <div class="row">
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="./cioc.jpg" class=" w-100 border border-white" alt="oameni care ciocnesc pahare">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 ">
+        <img src="./shoturi.jpg" class=" w-100 border border-white" alt="două shoturi de tequila pe o masă">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 ">
+        <img src="./whiskey.jpg" class=" w-100 border border-white" alt="trei pahare de whiskey cu gheață pe un fundal negru">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 ">
+        <img src="./berula.jpg" class=" w-100 border border-white" alt="două pahare de bere pe un bar">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 ">
+        <img src="./colorate.jpg" class=" w-100 border border-white" alt="patru cocktailuri de culori diferite">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 ">
+        <img src="./party.jpg" class=" w-100 border border-white" alt="oameni care ciocnesc pahare pe un ring de dans">
+      </div>
+    </div>
+    </div>
+    </div>
+    <!--footer-->
+    <footer id="contact" class="bg-dark mt-5 p-5 text-white text-center">
+      <p class="text-footer">&copy; Mixology Matters</p>
+      <!--orar-->
+      <p class="mb-1">Orar</p>
+      <ul class="nav justify-content-center list-unstyled d-block mb-3">
+        <li class="me-3">
+          Luni-Vineri: 15-03
+        </li>
+        <li class="me-3">Sâmbătă-Duminică: 12-04</li>
+      </ul>
+      <!--socials-->
+      <ul class="nav justify-content-center list-unstyled d-flex">
+        <li class="me-3">
+      <a href="https://www.instagram.com"><img src="instagram.png"></a>
+        </li>
+        <li class="me-3">
+      <a href="https://www.whatsapp.com"><img src="whatsapp.png"></a>
+      </li>
+      <li class="me-3">
+      <a href="https://www.facebook.com"><img src="facebook.png"></a>
+      </li>
+      </ul>
+    </footer>
+     
+   
+    
+
+
+
+
+ 
+  
+    
+      
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
