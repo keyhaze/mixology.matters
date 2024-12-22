@@ -50,11 +50,13 @@
     body {
       background-color: #d63384;
     }
-    .text-footer{
+
+    .text-footer {
       font-family: "Playfair Display", serif;
       font-size: 25px;
     }
-    li{
+
+    li {
       font-family: "Playfair Display", serif;
     }
   </style>
@@ -64,7 +66,7 @@
   <!--Navbar-->
   <nav class="navbar navbar-expand-md bg-light-subtle ">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"> <img src="eye-lashes.png" alt="logo"></a>
+      <a class="navbar-brand" href="index.html"> <img src="eye-lashes.png" alt="logo"> <p>Mixology Matters</p></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -89,18 +91,14 @@
   </nav>
 
   <!--Carusel-->
-  <div id="carouselExampleCaptions" class="carousel slide">
+  <div id="carouselHeader" class="carousel slide">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-        aria-label="Slide 4"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-        aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="4" aria-label="Slide 5"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -131,11 +129,11 @@
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
@@ -143,6 +141,7 @@
 
   <!--main content-->
   <div class="container">
+
     <!--rezervari-->
     <h1 class="text-center p-5"><strong>Mixology Matters</strong></h1>
     <hr>
@@ -161,6 +160,7 @@
     <h2 id="servicii" class=" fs-1 p-5 mt-5 mb-5 text-center"> Servicii</h2>
     <div class="container">
       <div class="row justify-content-center">
+
         <!--card 1-->
         <div class="col-12 col-md-12 col-lg-3">
           <div class="card w-100 mb-3">
@@ -173,6 +173,7 @@
             </div>
           </div>
         </div>
+
         <!--card 2-->
         <div class="col-12 col-md-12 col-lg-3">
           <div class="card w-100 mb-3">
@@ -185,6 +186,7 @@
             </div>
           </div>
         </div>
+
         <!--card 3-->
         <div class="col-12 col-md-12 col-lg-3">
           <div class="card w-100 mb-1">
@@ -204,7 +206,7 @@
     <h2 id="meniu" class="fs-1 p-5 mt-5 mb-3 text-center">Meniu</h2>
 
     <!--meniu acordeon-->
-    <div class="accordion mb-3" id="accordionExample">
+    <div class="accordion mb-3" id="accordionMeniu">
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
@@ -212,7 +214,7 @@
             Meniu bere artizanală
           </button>
         </h2>
-        <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+        <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionMeniu">
           <div class="accordion-body">
             <p class="text-center"> La Mixology Matters ne mândrim cu selecția noastră de bere artizanală, oferind o
               gamă diversă de arome și stiluri care reflectă pasiunea pentru calitate și tradiție. Fie că ești un
@@ -228,7 +230,7 @@
             Meniu vinuri
           </button>
         </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionMeniu">
           <div class="accordion-body">
             <p class="text-center">La Mixology Matters oferim o selecție rafinată de vinuri, atent alese pentru a
               satisface gusturile celor mai exigenți iubitori de vin. Fiecare sticlă din meniul nostru provine din
@@ -245,7 +247,7 @@
             Meniu cocktailuri și shoturi
           </button>
         </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionMeniu">
           <div class="accordion-body">
             <p class="text-center">La Mixology Matters am creat un meniu de cocktailuri și shoturi care îți va stimula
               simțurile și va adăuga o notă de rafinament serii tale. Fiecare băutură este realizată cu ingrediente de
@@ -259,72 +261,64 @@
 
     <!--galerie-->
     <h2 id="galerie" class="fs-1 p-5 mt-5 mb-3 text-center">Galerie</h2>
-    <p class="text-center"> Aici vei găsi imagini care surprind momente de neuitat, de la cocktailuri colorate și preparate delicioase, până la evenimente speciale și colțuri de decor ce definesc stilul locului nostru. Explorează galeria și lasă-te inspirat de ambientul nostru vibrant, ideal pentru o seară relaxantă sau o întâlnire cu prietenii. Fiecare imagine reflectă pasiunea și atenția noastră pentru detalii, invitându-te să trăiești o experiență autentică, chiar și din fața ecranului.</p>
-    <div class="container mb-5"> 
-    <div class="row">
-      <div class="col-6 col-md-4 col-lg-2">
-        <img src="./cioc.jpg" class=" w-100 border border-white" alt="oameni care ciocnesc pahare">
-      </div>
-      <div class="col-6 col-md-4 col-lg-2 ">
-        <img src="./shoturi.jpg" class=" w-100 border border-white" alt="două shoturi de tequila pe o masă">
-      </div>
-      <div class="col-6 col-md-4 col-lg-2 ">
-        <img src="./whiskey.jpg" class=" w-100 border border-white" alt="trei pahare de whiskey cu gheață pe un fundal negru">
-      </div>
-      <div class="col-6 col-md-4 col-lg-2 ">
-        <img src="./berula.jpg" class=" w-100 border border-white" alt="două pahare de bere pe un bar">
-      </div>
-      <div class="col-6 col-md-4 col-lg-2 ">
-        <img src="./colorate.jpg" class=" w-100 border border-white" alt="patru cocktailuri de culori diferite">
-      </div>
-      <div class="col-6 col-md-4 col-lg-2 ">
-        <img src="./party.jpg" class=" w-100 border border-white" alt="oameni care ciocnesc pahare pe un ring de dans">
+    <p class="text-center"> Aici vei găsi imagini care surprind momente de neuitat, de la cocktailuri colorate și
+      preparate delicioase, până la evenimente speciale și colțuri de decor ce definesc stilul locului nostru.
+      Explorează galeria și lasă-te inspirat de ambientul nostru vibrant, ideal pentru o seară relaxantă sau o întâlnire
+      cu prietenii. Fiecare imagine reflectă pasiunea și atenția noastră pentru detalii, invitându-te să trăiești o
+      experiență autentică, chiar și din fața ecranului.</p>
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-2">
+          <img src="./cioc.jpg" class=" w-100 border border-white" alt="oameni care ciocnesc pahare">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 ">
+          <img src="./shoturi.jpg" class=" w-100 border border-white" alt="două shoturi de tequila pe o masă">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 ">
+          <img src="./whiskey.jpg" class=" w-100 border border-white"
+            alt="trei pahare de whiskey cu gheață pe un fundal negru">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 ">
+          <img src="./berula.jpg" class=" w-100 border border-white" alt="două pahare de bere pe un bar">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 ">
+          <img src="./colorate.jpg" class=" w-100 border border-white" alt="patru cocktailuri de culori diferite">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 ">
+          <img src="./party.jpg" class=" w-100 border border-white"
+            alt="oameni care ciocnesc pahare pe un ring de dans">
+        </div>
       </div>
     </div>
-    </div>
-    </div>
-    <!--footer-->
-    <footer id="contact" class="bg-dark mt-5 p-5 text-white text-center">
-      <p class="text-footer">&copy; Mixology Matters</p>
-      <!--orar-->
-      <p class="mb-1">Orar</p>
-      <ul class="nav justify-content-center list-unstyled d-block mb-3">
-        <li class="me-3">
-          Luni-Vineri: 15-03
-        </li>
-        <li class="me-3">Sâmbătă-Duminică: 12-04</li>
-      </ul>
-      <!--socials-->
-      <ul class="nav justify-content-center list-unstyled d-flex">
-        <li class="me-3">
-      <a href="https://www.instagram.com"><img src="instagram.png"></a>
-        </li>
-        <li class="me-3">
-      <a href="https://www.whatsapp.com"><img src="whatsapp.png"></a>
+  </div>
+  <!--footer-->
+  <footer id="contact" class="bg-dark mt-5 p-5 text-white text-center">
+    <p class="text-footer">&copy; Mixology Matters</p>
+
+    <!--orar-->
+    <p class="mb-1">Orar</p>
+    <ul class="nav justify-content-center list-unstyled d-block mb-3">
+      <li class="me-3">
+        Luni-Vineri: 15-03
+      </li>
+      <li class="me-3">Sâmbătă-Duminică: 12-04</li>
+    </ul>
+
+    <!--socials-->
+    <ul class="nav justify-content-center list-unstyled d-flex">
+      <li class="me-3">
+        <a href="https://www.instagram.com"><img src="instagram.png"></a>
       </li>
       <li class="me-3">
-      <a href="https://www.facebook.com"><img src="facebook.png"></a>
+        <a href="https://www.whatsapp.com"><img src="whatsapp.png"></a>
       </li>
-      </ul>
-    </footer>
-     
-   
-    
-
-
-
-
- 
-  
-    
-      
-  
-
-
+      <li class="me-3">
+        <a href="https://www.facebook.com"><img src="facebook.png"></a>
+      </li>
+    </ul>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous">
-  </script>
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 </body>
-
 </html>
